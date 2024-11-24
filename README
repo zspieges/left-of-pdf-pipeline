@@ -1,0 +1,3 @@
+This project was to design a method to pull all of the text box values in a PDF that started on the left side of the PDF.
+
+A "bounding box" was a box that surrounded a particular value for an AI machine to pull out. I used these values to find the farthest left X value and farthest right X value. I then used that to calculate what was the "middle" of the PDF. Then, I added all the key to a final tuple to print out.
